@@ -1,0 +1,16 @@
+rules_version = '2';
+
+// Each signed-in person can read and write only their own record:
+// users/{uid} = { read: { "<book id>": "YYYY-MM-DD", ... } }
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if request.auth != null
+        && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['read'])
+        && request.resource.data.read is map
+        && request.resource.data.read.size() <= 1000;
+    }
+  }
+}

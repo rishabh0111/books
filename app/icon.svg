@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linejoin="round">
+  <style>
+    .ink { stroke: #151515; }
+    .ribbon { fill: #151515; stroke: #151515; }
+    @media (prefers-color-scheme: dark) {
+      .ink { stroke: #f0f0f0; }
+      .ribbon { fill: #f0f0f0; stroke: #f0f0f0; }
+    }
+  </style>
+  <path class="ink" stroke-width="1.6" d="M12 6.5C10 5 7 4.5 3 5v13c4-.5 7 0 9 1.5 2-1.5 5-2 9-1.5V5c-4-.5-7 0-9 1.5z" />
+  <path class="ink" stroke-width="1.6" d="M12 6.5v13" />
+  <path class="ribbon" stroke-width="1.2" d="M15 5.4V11l1.75-1.3L18.5 11V5.1" />
+</svg>
