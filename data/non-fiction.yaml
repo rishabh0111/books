@@ -1,0 +1,952 @@
+# Non-fiction: read from top to bottom, stage by stage.
+#
+# To add a book, copy a block and put it where it should be read.
+#   id:     short and unique, lowercase-with-dashes. Never change it once set:
+#           it is what people's ticks are saved against.
+#   area:   Self, People, Work or World
+#   topic:  any short label, e.g. Habits and Focus
+#   why:    one line on why it is worth reading (optional)
+# Order is the position in this file; numbers are worked out automatically.
+
+- stage: Foundations
+  books:
+    - id: how-to-read-a-book
+      title: How to Read a Book
+      author: Mortimer J. Adler & Charles Van Doren
+      area: Self
+      topic: Learning
+      why: How to read actively and well.
+    - id: the-psychology-of-money
+      title: The Psychology of Money
+      author: Morgan Housel
+      area: Work
+      topic: Wealth
+      why: Risk, greed, patience and financial behaviour.
+    - id: the-scout-mindset
+      title: The Scout Mindset
+      author: Julia Galef
+      area: Self
+      topic: Thinking
+      why: Seeking truth instead of defending beliefs.
+    - id: how-to-win-friends-and-influence-people
+      title: How to Win Friends and Influence People
+      author: Dale Carnegie
+      area: People
+      topic: Communication
+      why: Listening, appreciation and dealing with people.
+    - id: atomic-habits
+      title: Atomic Habits
+      author: James Clear
+      area: Self
+      topic: Habits and Focus
+      why: Designing systems for behaviour change.
+    - id: the-personal-mba
+      title: The Personal MBA
+      author: Josh Kaufman
+      area: Work
+      topic: Business
+      why: The fundamentals of business in one book.
+    - id: starting-strength
+      title: Starting Strength
+      author: Mark Rippetoe
+      area: Self
+      topic: Body
+      why: The fundamentals of barbell training.
+    - id: the-defining-decade
+      title: The Defining Decade
+      author: Meg Jay
+      area: Work
+      topic: Career
+      why: Why your twenties matter for work, love and identity.
+    - id: meditations
+      title: Meditations
+      author: Marcus Aurelius
+      area: Self
+      topic: Stoicism
+      why: Discipline, mortality, perspective, self-control.
+    - id: shoe-dog
+      title: Shoe Dog
+      author: Phil Knight
+      area: World
+      topic: Biographies
+      why: The founder of Nike's memoir.
+    - id: man-s-search-for-meaning
+      title: Man's Search for Meaning
+      author: Viktor E. Frankl
+      area: Self
+      topic: Meaning
+      why: Finding meaning despite suffering and uncertainty.
+    - id: captivate
+      title: Captivate
+      author: Vanessa Van Edwards
+      area: People
+      topic: Communication
+      why: The science of succeeding with people.
+- stage: First Steps in Every Area
+  books:
+    - id: let-s-talk-money
+      title: Let's Talk Money
+      author: Monika Halan
+      area: Work
+      topic: Wealth
+      why: Personal finance for Indians.
+    - id: mindset
+      title: Mindset
+      author: Carol S. Dweck
+      area: Self
+      topic: Learning
+      why: Fixed versus growth mindsets.
+    - id: the-mom-test
+      title: The Mom Test
+      author: Rob Fitzpatrick
+      area: Work
+      topic: Startups
+      why: Asking customers questions that reveal real demand.
+    - id: food-rules
+      title: Food Rules
+      author: Michael Pollan
+      area: Self
+      topic: Body
+      why: Simple rules for eating well.
+    - id: deep-work
+      title: Deep Work
+      author: Cal Newport
+      area: Work
+      topic: Craft
+      why: Concentrated work in a distracted world.
+    - id: four-thousand-weeks
+      title: Four Thousand Weeks
+      author: Oliver Burkeman
+      area: Self
+      topic: Mortality
+      why: Life is finite; choose what deserves your attention.
+    - id: nonviolent-communication
+      title: Nonviolent Communication
+      author: Marshall Rosenberg
+      area: People
+      topic: Communication
+      why: Expressing needs without aggression or blame.
+    - id: the-subtle-art-of-not-giving-a-f-ck
+      title: The Subtle Art of Not Giving a F-ck
+      author: Mark Manson
+      area: Self
+      topic: Meaning
+      why: Values and priorities.
+    - id: wings-of-fire
+      title: Wings of Fire
+      author: A. P. J. Abdul Kalam & Arun Tiwari
+      area: World
+      topic: Biographies
+      why: The autobiography of India's missile man.
+    - id: i-will-teach-you-to-be-rich
+      title: I Will Teach You to Be Rich
+      author: Ramit Sethi
+      area: Work
+      topic: Wealth
+      why: A practical system for personal finance.
+- stage: Clear Thinking
+  books:
+    - id: thinking-fast-and-slow
+      title: Thinking, Fast and Slow
+      author: Daniel Kahneman
+      area: Self
+      topic: Thinking
+      why: Cognitive biases and two modes of thinking.
+    - id: the-little-book-of-common-sense-investing
+      title: The Little Book of Common Sense Investing
+      author: John C. Bogle
+      area: Work
+      topic: Investing
+      why: The case for low-cost index funds.
+    - id: why-we-sleep
+      title: Why We Sleep
+      author: Matthew Walker
+      area: Self
+      topic: Body
+      why: Why sleep underpins health, memory and mood.
+    - id: 100m-offers
+      title: $100M Offers
+      author: Alex Hormozi
+      area: Work
+      topic: Marketing and Sales
+      why: Creating compelling offers.
+    - id: the-5-second-rule
+      title: The 5 Second Rule
+      author: Mel Robbins
+      area: Self
+      topic: Motivation
+      why: Taking action before hesitation wins.
+    - id: attached
+      title: Attached
+      author: Amir Levine & Rachel Heller
+      area: People
+      topic: Love
+      why: Attachment styles and relationship patterns.
+    - id: the-4-hour-workweek
+      title: The 4-Hour Workweek
+      author: Timothy Ferriss
+      area: Work
+      topic: Career
+      why: Business automation and lifestyle design.
+    - id: being-logical
+      title: Being Logical
+      author: D. Q. McInerny
+      area: Self
+      topic: Thinking
+      why: Logic before everything.
+    - id: the-psychology-of-selling
+      title: The Psychology of Selling
+      author: Brian Tracy
+      area: Work
+      topic: Marketing and Sales
+      why: Sales psychology.
+- stage: Habits and First Experiments
+  books:
+    - id: the-lean-startup
+      title: The Lean Startup
+      author: Eric Ries
+      area: Work
+      topic: Startups
+      why: Experiments, MVPs and validated learning.
+    - id: the-7-habits-of-highly-effective-people
+      title: The 7 Habits of Highly Effective People
+      author: Stephen R. Covey
+      area: Self
+      topic: Habits and Focus
+      why: Principles for personal and interpersonal effectiveness.
+    - id: rich-dad-poor-dad
+      title: Rich Dad Poor Dad
+      author: Robert T. Kiyosaki
+      area: Work
+      topic: Wealth
+      why: How the rich think about money differently.
+    - id: never-split-the-difference
+      title: Never Split the Difference
+      author: Chris Voss
+      area: People
+      topic: Communication
+      why: Negotiation lessons from an FBI hostage negotiator.
+    - id: feeling-good
+      title: Feeling Good
+      author: David D. Burns
+      area: Self
+      topic: Emotions
+      why: Cognitive behavioural therapy for depression and anxiety.
+    - id: so-good-they-can-t-ignore-you
+      title: So Good They Can't Ignore You
+      author: Cal Newport
+      area: Work
+      topic: Career
+      why: Skill and mastery often come before passion.
+    - id: the-great-mental-models-volume-1
+      title: The Great Mental Models (Volume 1)
+      author: Shane Parrish
+      area: Self
+      topic: Thinking
+      why: Core mental models for better decisions.
+    - id: astrophysics-for-people-in-a-hurry
+      title: Astrophysics for People in a Hurry
+      author: Neil deGrasse Tyson
+      area: World
+      topic: Physics
+      why: The universe in brief.
+    - id: essentialism
+      title: Essentialism
+      author: Greg McKeown
+      area: Self
+      topic: Habits and Focus
+      why: Doing fewer things, better.
+- stage: Health and First Product
+  books:
+    - id: zero-to-one
+      title: Zero to One
+      author: Peter Thiel
+      area: Work
+      topic: Strategy
+      why: Creating differentiated companies.
+    - id: outlive
+      title: Outlive
+      author: Peter Attia
+      area: Self
+      topic: Body
+      why: A practical framework for living longer and better.
+    - id: profit-first
+      title: Profit First
+      author: Mike Michalowicz
+      area: Work
+      topic: Business
+      why: A simple cash-management system for profitable businesses.
+    - id: influence
+      title: Influence
+      author: Robert Cialdini
+      area: People
+      topic: Communication
+      why: Why people say yes and how influence works.
+    - id: 12-rules-for-life
+      title: 12 Rules for Life
+      author: Jordan B. Peterson
+      area: Self
+      topic: Meaning
+      why: Personal responsibility.
+    - id: economics-in-one-lesson
+      title: Economics in One Lesson
+      author: Henry Hazlitt
+      area: People
+      topic: Economics
+      why: Seeing the unseen effects of economic policy.
+    - id: make-it-stick
+      title: Make It Stick
+      author: Peter C. Brown, Henry L. Roediger III & Mark A. McDaniel
+      area: Self
+      topic: Learning
+      why: The science of successful learning.
+    - id: made-in-america
+      title: Made in America
+      author: Sam Walton
+      area: World
+      topic: Biographies
+      why: The story of Walmart in its founder's words.
+    - id: steal-like-an-artist
+      title: Steal Like an Artist
+      author: Austin Kleon
+      area: Work
+      topic: Craft
+      why: Ten things nobody told you about being creative.
+    - id: unlimited-power
+      title: Unlimited Power
+      author: Tony Robbins
+      area: Self
+      topic: Motivation
+      why: Personal psychology and peak performance.
+    - id: the-millionaire-fastlane
+      title: The Millionaire Fastlane
+      author: MJ DeMarco
+      area: Work
+      topic: Wealth
+      why: "Wealth velocity: the fast lane to wealth."
+- stage: Investing and Getting Customers
+  books:
+    - id: 100m-leads
+      title: $100M Leads
+      author: Alex Hormozi
+      area: Work
+      topic: Marketing and Sales
+      why: Getting people to want what you sell.
+    - id: the-compound-effect
+      title: The Compound Effect
+      author: Darren Hardy
+      area: Self
+      topic: Habits and Focus
+      why: "Long-term thinking: small choices compound."
+    - id: the-intelligent-investor
+      title: The Intelligent Investor
+      author: Benjamin Graham
+      area: Work
+      topic: Investing
+      why: Value, discipline, margin of safety.
+    - id: models
+      title: Models
+      author: Mark Manson
+      area: People
+      topic: Love
+      why: "Attracting women through honesty: authentic confidence."
+    - id: the-unfair-advantage
+      title: The Unfair Advantage
+      author: Ash Ali & Hasan Kubba
+      area: Work
+      topic: Startups
+      why: "Competitive advantage: using what you already have to succeed."
+    - id: co-intelligence
+      title: Co-Intelligence
+      author: Ethan Mollick
+      area: World
+      topic: Artificial Intelligence
+      why: Living and working with AI.
+    - id: the-power-of-now
+      title: The Power of Now
+      author: Eckhart Tolle
+      area: Self
+      topic: Spirituality
+      why: Living in the present moment.
+    - id: steve-jobs
+      title: Steve Jobs
+      author: Walter Isaacson
+      area: World
+      topic: Biographies
+      why: The life of Apple's co-founder.
+    - id: a-short-history-of-nearly-everything
+      title: A Short History of Nearly Everything
+      author: Bill Bryson
+      area: World
+      topic: Science
+      why: A tour of science from the Big Bang to us.
+    - id: how-to-take-smart-notes
+      title: How to Take Smart Notes
+      author: Sönke Ahrens
+      area: Self
+      topic: Learning
+      why: Writing notes that turn into ideas.
+- stage: Managing Yourself and Others
+  books:
+    - id: high-output-management
+      title: High Output Management
+      author: Andrew Grove
+      area: Work
+      topic: Management
+      why: Leverage, teams, meetings and productivity.
+    - id: the-one-thing
+      title: The One Thing
+      author: Gary Keller & Jay Papasan
+      area: Self
+      topic: Habits and Focus
+      why: Focus on the one thing that makes everything else easier.
+    - id: secrets-of-the-millionaire-mind
+      title: Secrets of the Millionaire Mind
+      author: T. Harv Eker
+      area: Work
+      topic: Wealth
+      why: Wealth mindset.
+    - id: letters-from-a-stoic
+      title: Letters from a Stoic
+      author: Seneca
+      area: Self
+      topic: Stoicism
+      why: Time, wealth, adversity, tranquility.
+    - id: start-with-why
+      title: Start with Why
+      author: Simon Sinek
+      area: Work
+      topic: Marketing and Sales
+      why: Leading and marketing from purpose.
+    - id: sapiens
+      title: Sapiens
+      author: Yuval Noah Harari
+      area: World
+      topic: History
+      why: Humans from a civilisation-scale perspective.
+    - id: psycho-cybernetics
+      title: Psycho-Cybernetics
+      author: Maxwell Maltz
+      area: Self
+      topic: Motivation
+      why: Self-image psychology.
+    - id: dotcom-secrets
+      title: DotCom Secrets
+      author: Russell Brunson
+      area: Work
+      topic: Marketing and Sales
+      why: Sales funnels for online businesses.
+    - id: mastery
+      title: Mastery
+      author: Robert Greene
+      area: Work
+      topic: Craft
+      why: Long-term development of expertise.
+    - id: getting-things-done
+      title: Getting Things Done
+      author: David Allen
+      area: Self
+      topic: Habits and Focus
+      why: A system for managing tasks and commitments.
+- stage: Selling and Inner Calm
+  books:
+    - id: simple-numbers-straight-talk-big-profits
+      title: Simple Numbers, Straight Talk, Big Profits!
+      author: Greg Crabtree
+      area: Work
+      topic: Business
+      why: Business metrics that drive profit.
+    - id: the-miracle-morning
+      title: The Miracle Morning
+      author: Hal Elrod
+      area: Self
+      topic: Habits and Focus
+      why: A morning routine to start the day well.
+    - id: think-and-grow-rich
+      title: Think and Grow Rich
+      author: Napoleon Hill
+      area: Work
+      topic: Wealth
+      why: Wealth psychology.
+    - id: getting-to-yes
+      title: Getting to Yes
+      author: Roger Fisher & William Ury
+      area: People
+      topic: Communication
+      why: Principled negotiation.
+    - id: the-power-of-positive-thinking
+      title: The Power of Positive Thinking
+      author: Norman Vincent Peale
+      area: Self
+      topic: Motivation
+      why: Optimism.
+    - id: oversubscribed
+      title: Oversubscribed
+      author: Daniel Priestley
+      area: Work
+      topic: Marketing and Sales
+      why: Market positioning so demand exceeds supply.
+    - id: fooled-by-randomness
+      title: Fooled by Randomness
+      author: Nassim Nicholas Taleb
+      area: Self
+      topic: Thinking
+      why: The hidden role of chance in life and markets.
+    - id: show-your-work
+      title: Show Your Work!
+      author: Austin Kleon
+      area: Work
+      topic: Career
+      why: Sharing your process to get discovered.
+    - id: the-untethered-soul
+      title: The Untethered Soul
+      author: Michael A. Singer
+      area: Self
+      topic: Spirituality
+      why: Consciousness and inner freedom.
+    - id: built-from-scratch
+      title: Built from Scratch
+      author: Bernie Marcus & Arthur Blank
+      area: World
+      topic: Biographies
+      why: "Partnership entrepreneurship: how The Home Depot was built."
+    - id: why-nations-fail
+      title: Why Nations Fail
+      author: Daron Acemoglu & James Robinson
+      area: People
+      topic: Economics
+      why: Institutions and economic development.
+- stage: Strategy and Persuasion
+  books:
+    - id: blue-ocean-strategy
+      title: Blue Ocean Strategy
+      author: W. Chan Kim & Renée Mauborgne
+      area: Work
+      topic: Strategy
+      why: Creating uncontested market space.
+    - id: the-12-week-year
+      title: The 12 Week Year
+      author: Brian P. Moran & Michael Lennington
+      area: Self
+      topic: Habits and Focus
+      why: Execution in 12-week cycles.
+    - id: one-up-on-wall-street
+      title: One Up On Wall Street
+      author: Peter Lynch
+      area: Work
+      topic: Investing
+      why: Using what you know to pick stocks.
+    - id: tribe-of-millionaires
+      title: Tribe of Millionaires
+      author: David Osborn, Pat Hiban & Mike McCarthy
+      area: Work
+      topic: Career
+      why: Community building and the power of a mastermind.
+    - id: the-secret
+      title: The Secret
+      author: Rhonda Byrne
+      area: Self
+      topic: Spirituality
+      why: Manifestation and the law of attraction.
+    - id: pitch-anything
+      title: Pitch Anything
+      author: Oren Klaff
+      area: Work
+      topic: Marketing and Sales
+      why: Advanced presentations and pitching.
+    - id: india-after-gandhi
+      title: India After Gandhi
+      author: Ramachandra Guha
+      area: World
+      topic: India
+      why: The history of the world's largest democracy.
+    - id: the-winner-effect
+      title: The Winner Effect
+      author: Ian H. Robertson
+      area: Self
+      topic: Motivation
+      why: The neuroscience of success and failure.
+    - id: spin-selling
+      title: SPIN Selling
+      author: Neil Rackham
+      area: Work
+      topic: Marketing and Sales
+      why: Consultative selling.
+    - id: limitless
+      title: Limitless
+      author: Jim Kwik
+      area: Self
+      topic: Learning
+      why: How to learn effectively.
+    - id: the-laws-of-human-nature
+      title: The Laws of Human Nature
+      author: Robert Greene
+      area: People
+      topic: Communication
+      why: Patterns in human behaviour and motivations.
+- stage: Leading Through Hard Times
+  books:
+    - id: good-to-great
+      title: Good to Great
+      author: Jim Collins
+      area: Work
+      topic: Management
+      why: Leadership and organisational discipline.
+    - id: can-t-hurt-me
+      title: Can't Hurt Me
+      author: David Goggins
+      area: Self
+      topic: Motivation
+      why: Mental toughness.
+    - id: the-most-important-thing
+      title: The Most Important Thing
+      author: Howard Marks
+      area: Work
+      topic: Investing
+      why: Uncommon sense for investors.
+    - id: the-innovator-s-dilemma
+      title: The Innovator's Dilemma
+      author: Clayton Christensen
+      area: Work
+      topic: Strategy
+      why: Why established companies miss disruptive innovation.
+    - id: the-war-of-art
+      title: The War of Art
+      author: Steven Pressfield
+      area: Work
+      topic: Craft
+      why: Overcoming resistance and creating consistently.
+    - id: the-hard-thing-about-hard-things
+      title: The Hard Thing About Hard Things
+      author: Ben Horowitz
+      area: Work
+      topic: Management
+      why: The real problems of running a company.
+    - id: breaking-the-habit-of-being-yourself
+      title: Breaking the Habit of Being Yourself
+      author: Joe Dispenza
+      area: Self
+      topic: Motivation
+      why: Changing ingrained patterns of thought and behaviour.
+    - id: antifragile
+      title: Antifragile
+      author: Nassim Nicholas Taleb
+      area: Self
+      topic: Thinking
+      why: Things that gain from disorder.
+    - id: the-ride-of-a-lifetime
+      title: The Ride of a Lifetime
+      author: Robert Iger
+      area: World
+      topic: Biographies
+      why: "Strategic leadership: fifteen years running Disney."
+    - id: letters-from-an-astrophysicist
+      title: Letters from an Astrophysicist
+      author: Neil deGrasse Tyson
+      area: World
+      topic: Physics
+      why: Tyson answers letters about science, life and the universe.
+- stage: Running the Business
+  books:
+    - id: traction-get-a-grip-on-your-business
+      title: Traction (Get a Grip on Your Business)
+      author: Gino Wickman
+      area: Work
+      topic: Management
+      why: The Entrepreneurial Operating System for running a business.
+    - id: beyond-order
+      title: Beyond Order
+      author: Jordan B. Peterson
+      area: Self
+      topic: Meaning
+      why: Twelve more rules for life.
+    - id: the-essays-of-warren-buffett
+      title: The Essays of Warren Buffett
+      author: Warren E. Buffett & Lawrence A. Cunningham
+      area: Work
+      topic: Investing
+      why: Buffett's lessons on business and investing.
+    - id: the-e-myth-revisited
+      title: The E-Myth Revisited
+      author: Michael E. Gerber
+      area: Work
+      topic: Business
+      why: Why most small businesses don't work.
+    - id: the-slight-edge
+      title: The Slight Edge
+      author: Jeff Olson
+      area: Self
+      topic: Habits and Focus
+      why: Compound improvement from small daily actions.
+    - id: the-rules-of-the-game
+      title: The Rules of the Game
+      author: Neil Strauss
+      area: People
+      topic: Communication
+      why: Social dynamics.
+    - id: ogilvy-on-advertising
+      title: Ogilvy on Advertising
+      author: David Ogilvy
+      area: Work
+      topic: Marketing and Sales
+      why: Advertising that sells.
+    - id: thinking-in-systems
+      title: Thinking in Systems
+      author: Donella H. Meadows
+      area: World
+      topic: Science
+      why: How systems behave and how to change them.
+    - id: the-snowball
+      title: The Snowball
+      author: Alice Schroeder
+      area: World
+      topic: Biographies
+      why: "Warren Buffett and the business of life: the ultimate wealth builder."
+    - id: as-a-man-thinketh
+      title: As a Man Thinketh
+      author: James Allen
+      area: Self
+      topic: Motivation
+      why: Thought mastery.
+    - id: expert-secrets
+      title: Expert Secrets
+      author: Russell Brunson
+      area: Work
+      topic: Marketing and Sales
+      why: Expert positioning and building a following.
+- stage: Scaling Up
+  books:
+    - id: scaling-up
+      title: Scaling Up
+      author: Verne Harnish
+      area: Work
+      topic: Management
+      why: Growth systems for scaling a company.
+    - id: you-can-heal-your-life
+      title: You Can Heal Your Life
+      author: Louise Hay
+      area: Self
+      topic: Spirituality
+      why: Self-healing through changing thought patterns.
+    - id: what-every-real-estate-investor-needs-to-know-about-cash-flow
+      title: What Every Real Estate Investor Needs to Know About Cash Flow
+      author: Frank Gallinelli
+      area: Work
+      topic: Investing
+      why: Real estate financial measures.
+    - id: breakthrough-advertising
+      title: Breakthrough Advertising
+      author: Eugene M. Schwartz
+      area: Work
+      topic: Marketing and Sales
+      why: Copywriting based on market awareness.
+    - id: flow-state
+      title: Flow State
+      author: Frederick Dodson
+      area: Self
+      topic: Habits and Focus
+      why: Peak performance.
+    - id: unreasonable-hospitality
+      title: Unreasonable Hospitality
+      author: Will Guidara
+      area: Work
+      topic: Business
+      why: Service excellence that exceeds expectations.
+    - id: how-to-get-rich
+      title: How to Get Rich
+      author: Felix Dennis
+      area: Work
+      topic: Wealth
+      why: Wealth building reality from a self-made fortune.
+    - id: the-magic-of-thinking-big
+      title: The Magic of Thinking Big
+      author: David J. Schwartz
+      area: Self
+      topic: Motivation
+      why: Mindset expansion.
+    - id: the-fourth-turning
+      title: The Fourth Turning
+      author: William Strauss & Neil Howe
+      area: World
+      topic: History
+      why: Historical cycles.
+- stage: The Long Game
+  books:
+    - id: blueprint-to-a-billion
+      title: Blueprint to a Billion
+      author: David G. Thomson
+      area: Work
+      topic: Strategy
+      why: Seven essentials of companies that scaled to a billion.
+    - id: don-t-sweat-the-small-stuff
+      title: Don't Sweat the Small Stuff
+      author: Richard Carlson
+      area: Self
+      topic: Emotions
+      why: Perspective on everyday stress.
+    - id: unscripted
+      title: Unscripted
+      author: MJ DeMarco
+      area: Work
+      topic: Wealth
+      why: Advanced entrepreneurship and escaping the script.
+    - id: elon-musk
+      title: Elon Musk
+      author: Walter Isaacson
+      area: World
+      topic: Biographies
+      why: The life of a relentless founder.
+    - id: beyond-good-and-evil
+      title: Beyond Good and Evil
+      author: Friedrich Nietzsche
+      area: Self
+      topic: Ethics
+      why: Where do our moral assumptions come from?.
+    - id: the-almanack-of-naval-ravikant
+      title: The Almanack of Naval Ravikant
+      author: Eric Jorgenson
+      area: Work
+      topic: Career
+      why: Naval's thinking on wealth and happiness.
+    - id: the-21-irrefutable-laws-of-leadership
+      title: The 21 Irrefutable Laws of Leadership
+      author: John C. Maxwell
+      area: Work
+      topic: Management
+      why: Leadership fundamentals.
+    - id: the-gulag-archipelago
+      title: The Gulag Archipelago
+      author: Aleksandr Solzhenitsyn
+      area: World
+      topic: History
+      why: The Soviet prison-camp system and the human capacity for evil.
+    - id: tax-free-wealth
+      title: Tax-Free Wealth
+      author: Tom Wheelwright
+      area: Work
+      topic: Wealth
+      why: Tax strategy.
+- stage: Wealth and Legacy
+  books:
+    - id: main-street-millionaire
+      title: Main Street Millionaire
+      author: Codie Sanchez
+      area: Work
+      topic: Business
+      why: Building wealth by buying ordinary businesses.
+    - id: chicken-soup-for-the-soul
+      title: Chicken Soup for the Soul
+      author: Jack Canfield & Mark Victor Hansen
+      area: Self
+      topic: Motivation
+      why: Inspiration through short true stories.
+    - id: rich-dad-s-cashflow-quadrant
+      title: Rich Dad's Cashflow Quadrant
+      author: Robert T. Kiyosaki
+      area: Work
+      topic: Wealth
+      why: Income strategies across employee, self-employed, business owner and investor.
+    - id: the-48-laws-of-power
+      title: The 48 Laws of Power
+      author: Robert Greene
+      area: People
+      topic: Communication
+      why: Power dynamics.
+    - id: modern-man-in-search-of-a-soul
+      title: Modern Man in Search of a Soul
+      author: Carl G. Jung
+      area: Self
+      topic: Emotions
+      why: Depth psychology.
+    - id: the-millionaire-real-estate-agent
+      title: The Millionaire Real Estate Agent
+      author: Gary Keller, Dave Jenks & Jay Papasan
+      area: Work
+      topic: Business
+      why: Building a real estate business.
+    - id: the-house-of-morgan
+      title: The House of Morgan
+      author: Ron Chernow
+      area: World
+      topic: History
+      why: Financial history through an American banking dynasty.
+    - id: the-essence-of-success
+      title: The Essence of Success
+      author: Earl Nightingale
+      area: Self
+      topic: Motivation
+      why: Success principles.
+    - id: skin-in-the-game
+      title: Skin in the Game
+      author: Nassim Nicholas Taleb
+      area: Self
+      topic: Thinking
+      why: Risk, fairness and accountability.
+- stage: Wisdom
+  books:
+    - id: awaken-the-giant-within
+      title: Awaken the Giant Within
+      author: Tony Robbins
+      area: Self
+      topic: Motivation
+      why: Personal transformation.
+    - id: poor-charlie-s-almanack
+      title: Poor Charlie's Almanack
+      author: Charlie Munger
+      area: World
+      topic: Biographies
+      why: Multidisciplinary thinking and judgement.
+    - id: the-art-of-war
+      title: The Art of War
+      author: Sun Tzu
+      area: Work
+      topic: Strategy
+      why: Ancient principles of strategy and conflict.
+    - id: the-four-agreements
+      title: The Four Agreements
+      author: Don Miguel Ruiz
+      area: Self
+      topic: Spirituality
+      why: Four principles for personal freedom.
+    - id: principles-for-dealing-with-the-changing-world-order
+      title: Principles for Dealing with the Changing World Order
+      author: Ray Dalio
+      area: People
+      topic: Economics
+      why: "Macroeconomic patterns: why nations succeed and fail."
+    - id: family-wealth
+      title: Family Wealth
+      author: James E. Hughes Jr.
+      area: Work
+      topic: Wealth
+      why: Preserving wealth and family across generations.
+    - id: you2
+      title: You²
+      author: Price Pritchett
+      area: Self
+      topic: Motivation
+      why: Quantum leaps instead of gradual improvement.
+    - id: venture-deals
+      title: Venture Deals
+      author: Brad Feld & Jason Mendelson
+      area: Work
+      topic: Fundraising
+      why: Term sheets, negotiation and financing.
+    - id: cosmic-queries
+      title: Cosmic Queries
+      author: Neil deGrasse Tyson & James Trefil
+      area: World
+      topic: Physics
+      why: Big questions about the universe answered.
+    - id: autobiography-of-a-yogi
+      title: Autobiography of a Yogi
+      author: Paramahansa Yogananda
+      area: World
+      topic: Biographies
+      why: A yogi's life and Indian spiritual tradition.
+    - id: the-good-life
+      title: The Good Life
+      author: Robert Waldinger & Marc Schulz
+      area: People
+      topic: Friendship
+      why: Lessons from the longest study on happiness.

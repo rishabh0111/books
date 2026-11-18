@@ -44,25 +44,24 @@ Firebase (Authentication + Firestore). There is no server to run.
 
 ## Updating the lists
 
-The lists come from the notes repo (`knowledge-base`, kept private). After
-changing books there:
+The lists live in this repo: `data/non-fiction.yaml` and `data/literature.yaml`.
+Each book is one block; its position in the file is its place in the reading
+order. The header of each file explains the fields.
 
-```sh
-npm run data            # reads ../knowledge-base, writes data/lists.json
-git commit -am "chore(data): update lists" && git push
-```
+To add, move or edit a book, edit the file (on github.com works fine) and
+commit to `main`. The site rebuilds in about a minute. Every build first checks
+the lists (`scripts/lists.mjs`): a duplicate id, an unknown area or form, or a
+missing field stops the deploy with a message saying where.
 
-Literature forms and regions come from each note's `form` / `region`, or from
-`scripts/literature-tags.tsv` when a note doesn't have them.
-
-Book ids are made from the note's file name, so renaming a note's file resets
-that book's ticks for everyone.
+A book's `id` is what people's ticks are saved against, so never change it once
+the book is published; titles and everything else can change freely.
 
 ## Run locally
 
 ```sh
 npm install
 npm run dev             # http://localhost:3000
+npm run check           # check the lists and types
 ```
 
 Without Firebase settings it runs with browser-only ticks. To try sign-in,

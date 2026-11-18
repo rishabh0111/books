@@ -1,0 +1,714 @@
+# Literature: read from top to bottom, stage by stage.
+#
+# To add a book, copy a block and put it where it should be read.
+#   id:      short and unique, lowercase-with-dashes. Never change it once set:
+#            it is what people's ticks are saved against.
+#   form:    Novel, Short stories, Play, Poetry or Epic & myth
+#   region:  any short label, e.g. South Asia
+#   why:     one line on why it is worth reading (optional)
+# Order is the position in this file; numbers are worked out automatically.
+
+- stage: First Sparks
+  books:
+    - id: the-little-prince
+      title: The Little Prince
+      author: Antoine de Saint-Exupéry
+      form: Novel
+      region: Europe
+      why: Love and loss through a child's eyes.
+    - id: of-mice-and-men
+      title: Of Mice and Men
+      author: John Steinbeck
+      form: Novel
+      region: Americas
+      why: Friendship and dreams in hard times.
+    - id: the-hitchhiker-s-guide-to-the-galaxy
+      title: The Hitchhiker's Guide to the Galaxy
+      author: Douglas Adams
+      form: Novel
+      region: Europe
+      why: Comic science fiction about life and meaning.
+    - id: malgudi-days
+      title: Malgudi Days
+      author: R. K. Narayan
+      form: Short stories
+      region: South Asia
+      why: Stories of a small South Indian town.
+    - id: the-death-of-ivan-ilyich
+      title: The Death of Ivan Ilyich
+      author: Leo Tolstoy
+      form: Novel
+      region: Russia
+      why: What happens when we realise we've lived incorrectly.
+    - id: the-alchemist
+      title: The Alchemist
+      author: Paulo Coelho
+      form: Novel
+      region: Americas
+      why: Dreams, risk, exploration, personal direction.
+    - id: pride-and-prejudice
+      title: Pride and Prejudice
+      author: Jane Austen
+      form: Novel
+      region: Europe
+      why: Love, class and first impressions.
+    - id: the-metamorphosis
+      title: The Metamorphosis
+      author: Franz Kafka
+      form: Novel
+      region: Europe
+      why: A man wakes up as an insect.
+    - id: the-prophet
+      title: The Prophet
+      author: Kahlil Gibran
+      form: Poetry
+      region: Middle East & Africa
+      why: Love, work, freedom, sorrow, joy, relationships.
+    - id: animal-farm
+      title: Animal Farm
+      author: George Orwell
+      form: Novel
+      region: Europe
+      why: Revolution and corruption as a fable.
+- stage: Wide Horizons
+  books:
+    - id: the-old-man-and-the-sea
+      title: The Old Man and the Sea
+      author: Ernest Hemingway
+      form: Novel
+      region: Americas
+      why: Endurance and dignity.
+    - id: the-count-of-monte-cristo
+      title: The Count of Monte Cristo
+      author: Alexandre Dumas
+      form: Novel
+      region: Europe
+      why: Betrayal and revenge.
+    - id: the-rubaiyat-of-omar-khayyam
+      title: The Rubaiyat of Omar Khayyam
+      author: Omar Khayyam (Edward FitzGerald, translator)
+      form: Poetry
+      region: Middle East & Africa
+      why: Quatrains on fate and the moment.
+    - id: train-to-pakistan
+      title: Train to Pakistan
+      author: Khushwant Singh
+      form: Novel
+      region: South Asia
+      why: Partition through one village.
+    - id: candide
+      title: Candide
+      author: Voltaire
+      form: Novel
+      region: Europe
+      why: Satire of naive optimism.
+    - id: "1984"
+      title: "1984"
+      author: George Orwell
+      form: Novel
+      region: Europe
+      why: Power, truth and political control.
+    - id: the-epic-of-gilgamesh
+      title: The Epic of Gilgamesh
+      author: Anonymous
+      form: Epic & myth
+      region: Middle East & Africa
+      why: The oldest great story of friendship and mortality.
+    - id: jane-eyre
+      title: Jane Eyre
+      author: Charlotte Brontë
+      form: Novel
+      region: Europe
+      why: Independence, love and integrity.
+    - id: notes-from-underground
+      title: Notes from Underground
+      author: Fyodor Dostoevsky
+      form: Novel
+      region: Russia
+      why: The spite and freedom of the underground man.
+    - id: life-of-pi
+      title: Life of Pi
+      author: Yann Martel
+      form: Novel
+      region: Americas
+      why: Survival, faith and storytelling.
+- stage: Finding Your Stride
+  books:
+    - id: to-kill-a-mockingbird
+      title: To Kill a Mockingbird
+      author: Harper Lee
+      form: Novel
+      region: Americas
+      why: Morality, justice and empathy.
+    - id: macbeth
+      title: Macbeth
+      author: William Shakespeare
+      form: Play
+      region: Europe
+      why: Ambition and its destruction.
+    - id: foundation
+      title: Foundation
+      author: Isaac Asimov
+      form: Novel
+      region: Americas
+      why: Predicting and saving a falling empire.
+    - id: the-ramayana
+      title: The Ramayana
+      author: Valmiki
+      form: Epic & myth
+      region: South Asia
+      why: Rama's journey, duty and devotion.
+    - id: the-catcher-in-the-rye
+      title: The Catcher in the Rye
+      author: J. D. Salinger
+      form: Novel
+      region: Americas
+      why: Adolescent alienation.
+    - id: crime-and-punishment
+      title: Crime and Punishment
+      author: Fyodor Dostoevsky
+      form: Novel
+      region: Russia
+      why: Guilt, morality, rationalisation.
+    - id: the-essential-rumi
+      title: The Essential Rumi
+      author: Rumi (Coleman Barks, translator)
+      form: Poetry
+      region: Middle East & Africa
+      why: Mystical poems of love and longing.
+    - id: things-fall-apart
+      title: Things Fall Apart
+      author: Chinua Achebe
+      form: Novel
+      region: Middle East & Africa
+      why: A society undone by colonialism.
+    - id: gulliver-s-travels
+      title: Gulliver's Travels
+      author: Jonathan Swift
+      form: Novel
+      region: Europe
+      why: Satire of human nature.
+    - id: dracula
+      title: Dracula
+      author: Bram Stoker
+      form: Novel
+      region: Europe
+      why: The vampire novel that defined gothic horror.
+- stage: Quests and Dreams
+  books:
+    - id: the-remains-of-the-day
+      title: The Remains of the Day
+      author: Kazuo Ishiguro
+      form: Novel
+      region: Europe
+      why: Duty, regret and a life devoted to work.
+    - id: the-lord-of-the-rings
+      title: The Lord of the Rings
+      author: J. R. R. Tolkien
+      form: Novel
+      region: Europe
+      why: Good, evil and the burden of power.
+    - id: the-great-gatsby
+      title: The Great Gatsby
+      author: F. Scott Fitzgerald
+      form: Novel
+      region: Americas
+      why: Wealth, longing and the American dream.
+    - id: the-trial
+      title: The Trial
+      author: Franz Kafka
+      form: Novel
+      region: Europe
+      why: A man accused by an unknowable system.
+    - id: leaves-of-grass
+      title: Leaves of Grass
+      author: Walt Whitman
+      form: Poetry
+      region: Americas
+      why: Poems celebrating self and democracy.
+    - id: the-kite-runner
+      title: The Kite Runner
+      author: Khaled Hosseini
+      form: Novel
+      region: Americas
+      why: Friendship, betrayal and redemption.
+    - id: panchatantra
+      title: Panchatantra
+      author: Vishnu Sharma
+      form: Short stories
+      region: South Asia
+      why: Animal fables on wise conduct.
+    - id: east-of-eden
+      title: East of Eden
+      author: John Steinbeck
+      form: Novel
+      region: Americas
+      why: Family, morality and human choice.
+    - id: brave-new-world
+      title: Brave New World
+      author: Aldous Huxley
+      form: Novel
+      region: Europe
+      why: Pleasure, control and conformity.
+    - id: frankenstein
+      title: Frankenstein
+      author: Mary Shelley
+      form: Novel
+      region: Europe
+      why: Creation and responsibility.
+- stage: Big Hearts
+  books:
+    - id: the-guide
+      title: The Guide
+      author: R. K. Narayan
+      form: Novel
+      region: South Asia
+      why: A tour guide who becomes a holy man.
+    - id: les-miserables
+      title: Les Misérables
+      author: Victor Hugo
+      form: Novel
+      region: Europe
+      why: Justice, mercy and redemption.
+    - id: invisible-cities
+      title: Invisible Cities
+      author: Italo Calvino
+      form: Novel
+      region: Europe
+      why: Imaginary cities described to Kublai Khan.
+    - id: the-iliad
+      title: The Iliad
+      author: Homer
+      form: Epic & myth
+      region: Europe
+      why: War, rage and honour at Troy.
+    - id: hamlet
+      title: Hamlet
+      author: William Shakespeare
+      form: Play
+      region: Europe
+      why: Doubt, revenge and mortality.
+    - id: anna-karenina
+      title: Anna Karenina
+      author: Leo Tolstoy
+      form: Novel
+      region: Russia
+      why: Love, society and the search for meaning.
+    - id: fahrenheit-451
+      title: Fahrenheit 451
+      author: Ray Bradbury
+      form: Novel
+      region: Americas
+      why: A society that burns books.
+    - id: invisible-man
+      title: Invisible Man
+      author: Ralph Ellison
+      form: Novel
+      region: Americas
+      why: Race and identity in America.
+    - id: the-stranger
+      title: The Stranger
+      author: Albert Camus
+      form: Novel
+      region: Europe
+      why: Meaning, absurdity and alienation.
+- stage: Laughter and Longing
+  books:
+    - id: don-quixote
+      title: Don Quixote
+      author: Miguel de Cervantes
+      form: Novel
+      region: Europe
+      why: An idealist tilting at windmills.
+    - id: slaughterhouse-five
+      title: Slaughterhouse-Five
+      author: Kurt Vonnegut
+      form: Novel
+      region: Americas
+      why: War, time and fate.
+    - id: one-hundred-years-of-solitude
+      title: One Hundred Years of Solitude
+      author: Gabriel García Márquez
+      form: Novel
+      region: Americas
+      why: Generations of a family in Macondo.
+    - id: heart-of-darkness
+      title: Heart of Darkness
+      author: Joseph Conrad
+      form: Novel
+      region: Europe
+      why: Colonialism and the darkness within.
+    - id: a-suitable-boy
+      title: A Suitable Boy
+      author: Vikram Seth
+      form: Novel
+      region: South Asia
+      why: Family and marriage in post-independence India.
+    - id: beowulf
+      title: Beowulf
+      author: Anonymous
+      form: Epic & myth
+      region: Europe
+      why: Heroism and death in Old English.
+    - id: kafka-on-the-shore
+      title: Kafka on the Shore
+      author: Haruki Murakami
+      form: Novel
+      region: East Asia
+      why: Fate, memory and the unconscious.
+    - id: never-let-me-go
+      title: Never Let Me Go
+      author: Kazuo Ishiguro
+      form: Novel
+      region: Europe
+      why: Memory, love and what it means to be human.
+- stage: Obsessions
+  books:
+    - id: the-picture-of-dorian-gray
+      title: The Picture of Dorian Gray
+      author: Oscar Wilde
+      form: Novel
+      region: Europe
+      why: Beauty, vanity and corruption.
+    - id: the-mahabharata
+      title: The Mahabharata
+      author: Vyasa
+      form: Epic & myth
+      region: South Asia
+      why: India's great epic of duty and war.
+    - id: the-celestine-prophecy
+      title: The Celestine Prophecy
+      author: James Redfield
+      form: Novel
+      region: Americas
+      why: A spiritual adventure novel.
+    - id: the-idiot
+      title: The Idiot
+      author: Fyodor Dostoevsky
+      form: Novel
+      region: Russia
+      why: A truly good man in a corrupt society.
+    - id: king-lear
+      title: King Lear
+      author: William Shakespeare
+      form: Play
+      region: Europe
+      why: Power, family and madness.
+    - id: dune
+      title: Dune
+      author: Frank Herbert
+      form: Novel
+      region: Americas
+      why: Power, ecology and religion on a desert planet.
+    - id: madame-bovary
+      title: Madame Bovary
+      author: Gustave Flaubert
+      form: Novel
+      region: Europe
+      why: Romantic illusion and its cost.
+    - id: moby-dick
+      title: Moby-Dick
+      author: Herman Melville
+      form: Novel
+      region: Americas
+      why: Obsession and the whale.
+- stage: War and Home
+  books:
+    - id: the-left-hand-of-darkness
+      title: The Left Hand of Darkness
+      author: Ursula K. Le Guin
+      form: Novel
+      region: Americas
+      why: Gender and loyalty on a distant planet.
+    - id: war-and-peace
+      title: War and Peace
+      author: Leo Tolstoy
+      form: Novel
+      region: Russia
+      why: Love, history, ambition and human life.
+    - id: lord-of-the-flies
+      title: Lord of the Flies
+      author: William Golding
+      form: Novel
+      region: Europe
+      why: Civilisation and savagery.
+    - id: the-odyssey
+      title: The Odyssey
+      author: Homer
+      form: Epic & myth
+      region: Europe
+      why: The long journey home.
+    - id: wuthering-heights
+      title: Wuthering Heights
+      author: Emily Brontë
+      form: Novel
+      region: Europe
+      why: Obsessive love and revenge.
+    - id: the-divine-comedy
+      title: The Divine Comedy
+      author: Dante Alighieri
+      form: Epic & myth
+      region: Europe
+      why: A journey through hell, purgatory and paradise.
+    - id: gitanjali
+      title: Gitanjali
+      author: Rabindranath Tagore
+      form: Poetry
+      region: South Asia
+      why: Devotional poems.
+    - id: the-grapes-of-wrath
+      title: The Grapes of Wrath
+      author: John Steinbeck
+      form: Novel
+      region: Americas
+      why: A family's struggle in the Depression.
+- stage: Families and Fates
+  books:
+    - id: the-white-tiger
+      title: The White Tiger
+      author: Aravind Adiga
+      form: Novel
+      region: South Asia
+      why: Class and ambition in modern India.
+    - id: the-brothers-karamazov
+      title: The Brothers Karamazov
+      author: Fyodor Dostoevsky
+      form: Novel
+      region: Russia
+      why: Morality, freedom, suffering, family, faith, responsibility.
+    - id: the-course-of-love
+      title: The Course of Love
+      author: Alain de Botton
+      form: Novel
+      region: Europe
+      why: What happens after falling in love.
+    - id: the-aeneid
+      title: The Aeneid
+      author: Virgil
+      form: Epic & myth
+      region: Europe
+      why: The founding epic of Rome.
+    - id: catch-22
+      title: Catch-22
+      author: Joseph Heller
+      form: Novel
+      region: Americas
+      why: The absurdity of war.
+    - id: the-plague
+      title: The Plague
+      author: Albert Camus
+      form: Novel
+      region: Europe
+      why: Responsibility and human solidarity.
+    - id: the-sound-and-the-fury
+      title: The Sound and the Fury
+      author: William Faulkner
+      form: Novel
+      region: Americas
+      why: The decline of a Southern family.
+    - id: one-thousand-and-one-nights
+      title: One Thousand and One Nights
+      author: Anonymous
+      form: Short stories
+      region: Middle East & Africa
+      why: Stories within stories from the Islamic world.
+- stage: Lives Large and Small
+  books:
+    - id: neuromancer
+      title: Neuromancer
+      author: William Gibson
+      form: Novel
+      region: Americas
+      why: The birth of cyberpunk.
+    - id: middlemarch
+      title: Middlemarch
+      author: George Eliot
+      form: Novel
+      region: Europe
+      why: Ordinary lives and moral choices.
+    - id: the-waste-land
+      title: The Waste Land
+      author: T. S. Eliot
+      form: Poetry
+      region: Europe
+      why: A fractured modern poem.
+    - id: midnight-s-children
+      title: Midnight's Children
+      author: Salman Rushdie
+      form: Novel
+      region: South Asia
+      why: India's independence through magical lives.
+    - id: stoner
+      title: Stoner
+      author: John Williams
+      form: Novel
+      region: Americas
+      why: An ordinary life, quietly lived.
+    - id: paradise-lost
+      title: Paradise Lost
+      author: John Milton
+      form: Epic & myth
+      region: Europe
+      why: The fall of humanity.
+    - id: the-road
+      title: The Road
+      author: Cormac McCarthy
+      form: Novel
+      region: Americas
+      why: A father and son after the end of the world.
+    - id: the-book-thief
+      title: The Book Thief
+      author: Markus Zusak
+      form: Novel
+      region: Oceania
+      why: Words, loss and humanity in Nazi Germany, narrated by Death.
+- stage: Rise and Fall
+  books:
+    - id: mrs-dalloway
+      title: Mrs Dalloway
+      author: Virginia Woolf
+      form: Novel
+      region: Europe
+      why: A day in one London woman's life.
+    - id: dream-of-the-red-chamber
+      title: Dream of the Red Chamber
+      author: Cao Xueqin
+      form: Novel
+      region: East Asia
+      why: The decline of a great Chinese family.
+    - id: the-bell-jar
+      title: The Bell Jar
+      author: Sylvia Plath
+      form: Novel
+      region: Americas
+      why: A young woman's descent into depression.
+    - id: faust
+      title: Faust
+      author: Johann Wolfgang von Goethe
+      form: Play
+      region: Europe
+      why: The bargain for knowledge and experience.
+    - id: great-expectations
+      title: Great Expectations
+      author: Charles Dickens
+      form: Novel
+      region: Europe
+      why: Ambition, class and growing up.
+    - id: blindness
+      title: Blindness
+      author: José Saramago
+      form: Novel
+      region: Europe
+      why: A society struck by an epidemic of blindness.
+    - id: the-magic-mountain
+      title: The Magic Mountain
+      author: Thomas Mann
+      form: Novel
+      region: Europe
+      why: Time, illness and ideas in a sanatorium.
+    - id: godaan
+      title: Godaan
+      author: Munshi Premchand
+      form: Novel
+      region: South Asia
+      why: Rural poverty and dignity in India.
+- stage: Pilgrims and Wanderers
+  books:
+    - id: the-theban-plays
+      title: The Theban Plays
+      author: Sophocles
+      form: Play
+      region: Europe
+      why: Oedipus and the tragedy of fate.
+    - id: journey-to-the-west
+      title: Journey to the West
+      author: Wu Cheng'en
+      form: Novel
+      region: East Asia
+      why: The Monkey King's pilgrimage.
+    - id: siddhartha
+      title: Siddhartha
+      author: Hermann Hesse
+      form: Novel
+      region: Europe
+      why: Experience, identity, wisdom, inner life.
+    - id: the-tale-of-genji
+      title: The Tale of Genji
+      author: Murasaki Shikibu
+      form: Novel
+      region: East Asia
+      why: Court life in Heian Japan.
+    - id: the-canterbury-tales
+      title: The Canterbury Tales
+      author: Geoffrey Chaucer
+      form: Poetry
+      region: Europe
+      why: Pilgrims tell stories of medieval life.
+    - id: beloved
+      title: Beloved
+      author: Toni Morrison
+      form: Novel
+      region: Americas
+      why: Slavery's haunting legacy.
+    - id: a-single-man
+      title: A Single Man
+      author: Christopher Isherwood
+      form: Novel
+      region: Americas
+      why: One day of grief and solitude in a man's life.
+    - id: ulysses
+      title: Ulysses
+      author: James Joyce
+      form: Novel
+      region: Europe
+      why: One day in Dublin.
+- stage: Memory and Wonder
+  books:
+    - id: the-master-and-margarita
+      title: The Master and Margarita
+      author: Mikhail Bulgakov
+      form: Novel
+      region: Russia
+      why: The devil visits Moscow.
+    - id: klara-and-the-sun
+      title: Klara and the Sun
+      author: Kazuo Ishiguro
+      form: Novel
+      region: Europe
+      why: An artificial friend observes love.
+    - id: the-name-of-the-rose
+      title: The Name of the Rose
+      author: Umberto Eco
+      form: Novel
+      region: Europe
+      why: A murder mystery in a medieval abbey.
+    - id: ficciones
+      title: Ficciones
+      author: Jorge Luis Borges
+      form: Short stories
+      region: Americas
+      why: Labyrinths, mirrors and infinite libraries.
+    - id: to-the-lighthouse
+      title: To the Lighthouse
+      author: Virginia Woolf
+      form: Novel
+      region: Europe
+      why: Time, loss and perception.
+    - id: the-god-of-small-things
+      title: The God of Small Things
+      author: Arundhati Roy
+      form: Novel
+      region: South Asia
+      why: Love and caste in Kerala.
+    - id: in-search-of-lost-time
+      title: In Search of Lost Time
+      author: Marcel Proust
+      form: Novel
+      region: Europe
+      why: Memory, time and art.
+    - id: if-on-a-winter-s-night-a-traveler
+      title: If on a Winter's Night a Traveler
+      author: Italo Calvino
+      form: Novel
+      region: Europe
+      why: A novel about reading novels.

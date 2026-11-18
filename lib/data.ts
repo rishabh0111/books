@@ -1,4 +1,4 @@
-import lists from "@/data/lists.json";
+import lists from "./lists.generated.json";
 
 export type Book = { id: string; n: number; name: string; author: string; category: string; sub: string; why: string };
 export type Stage = { name: string; books: Book[] };
